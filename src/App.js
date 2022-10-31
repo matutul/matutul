@@ -5,7 +5,6 @@ import Aboutme from './Component/Aboutme/Aboutme';
 import Projects from './Component/Projects/Work';
 import Contact from './Component/Contact/Contact';
 import Skills from "./Component/Skills/Skills";
-import { Link } from 'react-scroll';
 
 function App() {
   return (

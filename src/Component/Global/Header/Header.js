@@ -37,19 +37,19 @@ const Header = () => {
                 mobileMenu &&
                 <ul className="fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#191A19] text-3xl">
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="home" smooth={true} duration={500} className="cursor-pointer">Home</Link>
+                        <Link to="home" smooth={true} duration={500} className="cursor-pointer" onClick={handleBarButton} >Home</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="about" smooth={true} duration={500} className="cursor-pointer">About</Link>
+                        <Link to="about" smooth={true} duration={500} className="cursor-pointer" onClick={handleBarButton} >About</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="skills" smooth={true} duration={500} className="cursor-pointer">Skills</Link>
+                        <Link to="skills" smooth={true} duration={500} className="cursor-pointer" onClick={handleBarButton} >Skills</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="work" smooth={true} duration={500} className="cursor-pointer">Work</Link>
+                        <Link to="work" smooth={true} duration={500} className="cursor-pointer" onClick={handleBarButton} >Work</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contact</Link>
+                        <Link to="contact" smooth={true} duration={500} className="cursor-pointer" onClick={handleBarButton} >Contact</Link>
                     </li>
                 </ul>
             }

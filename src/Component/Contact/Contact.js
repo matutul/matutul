@@ -8,7 +8,7 @@ const Contact = () => {
                     <h3 className="font-bold text-4xl inline border-b-4 border-[#4E9F3D] tracking-wider">Contact</h3>
                     <p className="my-4">Send message if you have any questions</p>
                 </div>
-                <form action="">
+                <form method="POST" action="https://getform.io/f/226fddb5-9f97-48db-8ed4-e6853c55e6ba">
                     <input type="text" placeholder="Name" name="name" className="w-full p-2 my-2 rounded-xl text-lg outline-none text-gray-700 bg-[#D8E9A8]" />
                     <input type="text" placeholder="Email" name="email" className="w-full p-2 my-2 rounded-xl bordertext-lg outline-none text-gray-700 bg-[#D8E9A8]" />
                     <textarea type="text" placeholder="Message" name="message" rows="5" className="w-full p-2 my-2 rounded-xl text-lg outline-none text-gray-700 bg-[#D8E9A8]" />
