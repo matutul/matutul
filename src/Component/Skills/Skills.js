@@ -12,10 +12,10 @@ import github from '../../Assets/github.png';
 
 const Skills = () => {
     return (
-        <div className="w-full h-auto sm:h-screen bg-[#191A19]">
+        <div name="skills" className="w-full h-auto sm:h-screen bg-[#191A19]">
             <div className="max-w-[1000px] w-full h-full mx-auto p-4 pt-20 sm:pt-0 flex flex-col justify-center text-[#D8E9A8]">
                 <div>
-                    <h2 className="text-4xl font-bold inline border-b-4 leading-normal">Experience</h2>
+                    <h2 className="text-4xl font-bold inline border-b-4 border-[#4E9F3D] leading-normal">Experience</h2>
                     <p className="py-2">These are the technologies I've worked with</p>
                 </div>
                 <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-center py-8">

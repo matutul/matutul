@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import {
-    Link
-} from "react-router-dom";
+import { Link } from "react-scroll";
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
@@ -14,19 +12,19 @@ const Header = () => {
             </div>
             <ul className="hidden lg:flex">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="home" smooth={true} duration={500} className="cursor-pointer">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="about" smooth={true} duration={500} className="cursor-pointer">About</Link>
                 </li>
                 <li>
-                    <Link to="/skills">Skills</Link>
+                    <Link to="skills" smooth={true} duration={500} className="cursor-pointer">Skills</Link>
                 </li>
                 <li>
-                    <Link to="/work">Work</Link>
+                    <Link to="work" smooth={true} duration={500} className="cursor-pointer">Work</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contact</Link>
                 </li>
             </ul>
             <div onClick={handleBarButton} className="text-3xl flex lg:hidden z-10" >
@@ -39,19 +37,19 @@ const Header = () => {
                 mobileMenu &&
                 <ul className="fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#191A19] text-3xl">
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="/">Home</Link>
+                        <Link to="home" smooth={true} duration={500} className="cursor-pointer">Home</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="/about">About</Link>
+                        <Link to="about" smooth={true} duration={500} className="cursor-pointer">About</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="/skills">Skills</Link>
+                        <Link to="skills" smooth={true} duration={500} className="cursor-pointer">Skills</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="/work">Work</Link>
+                        <Link to="work" smooth={true} duration={500} className="cursor-pointer">Work</Link>
                     </li>
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
-                        <Link to="/contact">Contact</Link>
+                        <Link to="contact" smooth={true} duration={500} className="cursor-pointer">Contact</Link>
                     </li>
                 </ul>
             }
