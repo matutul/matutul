@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-8">
                     {/* grid */}
                     {/* card 1 */}
-                    <div style={{ backgroundImage: `url(${CarRentalService})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center">
+                    <div style={{ backgroundImage: `url(${CarRentalService})` }} className={`h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center bg-slate-600`}>
                         <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center">
                             <h3 className="text-2xl font-bold tracking-wider mb-2">Car Rental Services</h3>
                             <a href="https://molla-rent-a-car.web.app/home" target="_blank">
@@ -30,7 +30,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* card 2 */}
-                    <div style={{ backgroundImage: `url(${EasyTransport})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center">
+                    <div style={{ backgroundImage: `url(${EasyTransport})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center bg-slate-600">
                         <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center">
                             <h3 className="text-2xl font-bold tracking-wider mb-2">Easy Transport</h3>
                             <a href="https://easy-transport-system.web.app/" target="_blank">
@@ -42,7 +42,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* card 3 */}
-                    <div style={{ backgroundImage: `url(${CakeValley})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center">
+                    <div style={{ backgroundImage: `url(${CakeValley})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center bg-slate-600">
                         <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center">
                             <h3 className="text-2xl font-bold tracking-wider mb-2">Cake Valley</h3>
                             <a href="https://cake-valley-authentication.web.app/" target="_blank">
@@ -54,7 +54,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* card 4 */}
-                    <div style={{ backgroundImage: `url(${CookingMaster})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center">
+                    <div style={{ backgroundImage: `url(${CookingMaster})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center bg-slate-600">
                         <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center">
                             <h3 className="text-2xl font-bold tracking-wider mb-2">Cooking Master</h3>
                             <a href="https://matutul.github.io/cooking-master/" target="_blank">
@@ -66,7 +66,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* card 5 */}
-                    <div style={{ backgroundImage: `url(${TeamSelection})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center">
+                    <div style={{ backgroundImage: `url(${TeamSelection})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center bg-slate-600">
                         <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center">
                             <h3 className="text-2xl font-bold tracking-wider mb-2">Team Selection</h3>
                             <a href="https://jovial-fermat-0e5be8.netlify.app/" target="_blank">
@@ -78,7 +78,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* card 6 */}
-                    <div style={{ backgroundImage: `url(${EmaJohn})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center">
+                    <div style={{ backgroundImage: `url(${EmaJohn})` }} className="h-[220px] p-4 text-center rounded-xl group content-dev flex flex-col justify-center items-center bg-slate-600">
                         <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center">
                             <h3 className="text-2xl font-bold tracking-wider mb-2">Ema John</h3>
                             <a href="https://dreamy-franklin-a38eb1.netlify.app/" target="_blank">
