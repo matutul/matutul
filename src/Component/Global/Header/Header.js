@@ -6,7 +6,7 @@ const Header = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
     const handleBarButton = () => setMobileMenu(!mobileMenu);
     return (
-        <div className="fixed w-full h-auto py-5 flex justify-between items-center px-3 md:px-[10%] bg-[#191A19] text-[#D8E9A8]">
+        <div className="fixed w-full h-auto py-5 flex justify-between items-center px-3 md:px-[10%] bg-primary text-textColor z-50">
             <div className="logo">
                 <h1 className="text-2xl sm:text-3xl cursor-pointer">Md Ashrafujjaman Tutul</h1>
             </div>
@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             {
                 mobileMenu &&
-                <ul className="fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#191A19] text-3xl">
+                <ul className="fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-primary text-3xl">
                     <li onClick={handleBarButton} className="py-3 hover:text-4xl">
                         <Link to="home" smooth={true} duration={500} className="cursor-pointer" onClick={handleBarButton} >Home</Link>
                     </li>
